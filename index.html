@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hai, Saya <span class="highlight">Makbuli</span></h1>
+            <p>Web Developer | Designer | Freelancer</p>
+            <a href="#projects" class="btn">Lihat Proyek Saya</a>
+        </div>
+        <div class="hero-image">
+            <img src="profil.jpg" alt="Profil Saya">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Tentang Saya</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>perkenalkan nama saya makbuli, saya hanyalah orang suka tentang dunia  teknologi.</p>
+                <p>dan ini hanyalah projek saya untuk mengisi kegabutan setelah scroll facebook -_- </p>
+            </div>
+            <div class="about-image">
+                <img src="profil.jpg" alt="Tentang Saya">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Keahlian Saya</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, React, Node.js</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Design</h3>
+                <p>UI/UX, Adobe Photoshop, Figma</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile Development</h3>
+                <p>React Native, Flutter</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Proyek Terbaru</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="asset/tes.png" alt="Proyek 1">
+                <h3>aplikasi java</h3>
+                <p>aplikasi manajemen informasi rumah sakit berbasis java</p>
+                <a href="https://github.com/Makbuli/sistem-management-rumah-sakit.git" class="btn-small">Lihat Detail</a>
+            </div>
+            <div class="project-card">
+                <img src="asset/halamAN.png" alt="Proyek 2">
+                <h3>halaman login </h3>
+                <p>halaman login ini cuma menggunakan html dan css</p>
+                <a href="https://makbuli.github.io/loggin/" class="btn-small">Lihat Detail</a>
+            </div>
+            <div class="project-card">
+                <img src="asset/login.png" alt="Proyek 3">
+                <h3>halaman login facebook</h3>
+                <p>halaman login facebook sederhana menggunakan html,css, dan javascript</p>
+                <a href="https://makbuli.github.io/facebooklogin/" class="btn-small">Lihat Detail</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Hubungi Saya</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Nama Anda" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Email Anda" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" rows="5" placeholder="Pesan Anda" required></textarea>
+            </div>
+            <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+        <div class="social-links">
+            <a href="https://www.facebook.com/yusup.tea.507"><i class="fab fa-facebook"></i></a>
+            <a href="https://mobile.x.com/bmakbuli"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/makbuli_akbaryusup/"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Makbuli"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Makbuli akbar yusup. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
